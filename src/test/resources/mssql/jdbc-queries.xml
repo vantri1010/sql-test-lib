@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jdbc-mappings>
+
+	<query name="sample test">
+		<sql>
+			<![CDATA[
+				SELECT 1 ;
+			]]>
+		</sql>		
+	</query>
+
+</jdbc-mappings>

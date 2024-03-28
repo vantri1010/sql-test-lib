@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqltemplates>
+	
+  	<template name="sample-list-builder" template-type="prepared">
+	    <description> testing </description>
+	    <sql>
+			 SELECT 1 ;
+	    </sql>    
+  	</template>
+	<template name="sample-list-builder-2" template-type="callable">
+		<description> testing </description>
+		<sql>
+			WRONG SYNTAX ;
+		</sql>
+	</template>
+</sqltemplates>
